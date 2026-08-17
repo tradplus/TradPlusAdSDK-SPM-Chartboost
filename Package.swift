@@ -16,7 +16,7 @@ let package = Package(
     dependencies: [
         .package(
             url: "https://github.com/tradplus/TradPlusAdSDK-SPM.git",
-            .exact("15.12.0")
+            .exact("15.13.0")
         ),
         .package(
             url: "https://github.com/ChartBoost/chartboost-monetization-ios-sdk.git",
@@ -36,8 +36,8 @@ let package = Package(
         ),
         .binaryTarget(
             name: "TPChartboostAdapter",
-            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Chartboost/releases/download/15.12.0/TPChartboostAdapter-15.12.0.xcframework.zip",
-            checksum: "662271e2a0a44c21e27dde41c3165384615faba1d6b937dd88e9a71935d8a434"
+            url: "https://github.com/tradplus/TradPlusAdSDK-SPM-Chartboost/releases/download/15.13.0/TPChartboostAdapter-15.13.0.xcframework.zip",
+            checksum: "9b7d94050984c0817d4091fd59bb5c000023891c1b6ce92ef474fb1f2d9fd5b2"
         ),
     ]
 )
